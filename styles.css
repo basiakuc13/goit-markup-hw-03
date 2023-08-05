@@ -1,7 +1,28 @@
+:root {
+  --brand-color: #2e2f42;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  height: 2592;
+  background: #fff;
+}
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: white;
   padding: 1rem;
+}
+.cointeiner-1 {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 #logo {
   width: 1440px;
@@ -44,8 +65,6 @@ body {
   background-color: #f4f4fd;
   border-color: #e7e9fc;
   color: #4d5ae5;
-}
-.menu-buttons {
 }
 
 .menu {
@@ -117,22 +136,29 @@ a:hover {
   top: 1764px;
 }
 #button-order-service {
-  font-style: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
+  width: 177px;
+  height: 64px;
+  padding: 16px, 32px;
+  border: 4px;
   color: white;
   cursor: pointer;
 }
 #slogan {
-  table-layout: 496px, 120px, 260px, 472px;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 2%;
   color: white;
-  text-align: center;
+  width: 696px;
+  height: 120px;
+  border-top: 188px;
+  border-right: 472px;
+  border-bottom: 292px;
+  border-left: 472px;
 }
 .button-properties {
   width: 169px;
@@ -143,9 +169,9 @@ a:hover {
   background-color: #4d5ae5;
 }
 .slogan-and-button {
+  box-sizing: border-box;
   width: 1440px;
   height: 600px;
-  top: 72px;
   background-color: #2e2f42;
 }
 .phrase {
