@@ -81,7 +81,7 @@ height: 0;
   margin-left: 156px;
 }
 .logo-web {
-  color: #4D5AE5;
+  color: var(--color-iris);
   font-size: 18px;
   font-family: Raleway;
   font-style: normal;
@@ -92,7 +92,7 @@ height: 0;
   height: 21px;
 }
 .logo-studio {
-  color: #2E2F42;
+  color: var(--brand-color);
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
@@ -122,7 +122,7 @@ top: 24px;
 left: 940px;
 }
 .contacts {
-  color: #434455;
+  color: var(--color-slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -131,7 +131,7 @@ left: 940px;
   height: 24px;
 }
 .page-title {
-  color: white;
+  color: var(--color-white);
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -148,8 +148,8 @@ top: 356px;
 left: 636px;
 }
 .button-index {
-  color: white;
-  background: #4D5AE5; 
+  color: var(--color-white);
+  background: var(--color-iris); 
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -160,8 +160,8 @@ left: 636px;
 }
 button-index:hover
 {
-  background-color: #E7E9FC;
-  color: #4D5AE5;
+  background-color: var(--color-cloud);
+  color: var(--color-iris);
   cursor: pointer;
 }
 .sub-title-and-description-position {  
@@ -172,7 +172,7 @@ button-index:hover
   gap: 24px;
 }
 .sub-title {
-  color: #2E2F42;
+  color: var(--brand-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -182,7 +182,7 @@ button-index:hover
   margin-bottom: 8px;
 }
 .description {
-  color: #434455;
+  color: var(--color-slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -191,7 +191,7 @@ button-index:hover
   width: 264px;
 }
 .title-what-are-we-doing {
-  color: v#2E2F42;
+  color: var(--brand-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -213,7 +213,7 @@ button-index:hover
 }
 .title-our-team
 {
-  color: v#2E2F42;
+  color: var(--brand-color);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -253,7 +253,7 @@ button-index:hover
   padding-top: 32px;
 }
 .team-names {
-  color: #2E2F42;
+  color: var(--brand-color);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -261,7 +261,7 @@ button-index:hover
   letter-spacing: 0.4px;
 }
 .job-title {
-  color: #2E2F42;
+  color: var(--color-slate);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -276,7 +276,7 @@ top: 101.5px;
 }
 
 .footer-logo-web {
-  color:#4D5AE5;
+  color:var(--color-iris);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -288,7 +288,7 @@ top: 101.5px;
 
 }
 .footer-logo-studio {
-  color: #F4F4FD;
+  color: var(--color-cloud);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -299,7 +299,7 @@ top: 101.5px;
   height: 21px;
 }
 .footer-text {
-  color: #F4F4FD;
+  color: var(--color-cloud);
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -329,7 +329,7 @@ top: 101.5px;
 }
 .conteiner-4 {
   height: 732px;
-  background: #F4F4FD;
+  background: var(--color-cloud);
   display: flex;
 }
 .conteiner-5 {
