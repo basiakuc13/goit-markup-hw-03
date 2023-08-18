@@ -211,7 +211,7 @@ a
  display: flex;
  gap: 24px;
  justify-content: center;
- margin-bottom: 240px;
+ margin-bottom: 120px;
 }
 .images-what-are-we-doing {
   width: 360px;
@@ -229,6 +229,7 @@ a
   letter-spacing: 0.72px;
   text-align: center;
   margin-bottom: 72px;
+  padding-top: 120px;
 }
 .team-card-position
 {
