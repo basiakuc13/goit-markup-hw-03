@@ -81,7 +81,7 @@ a
 }
 .conteiner
 {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0.15px;
 }
@@ -132,7 +132,6 @@ a
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  margin-left: 332px;
 }
 .contacts {
   color: var(--color-slate);
@@ -314,7 +313,7 @@ a
 {
  display: flex;
  gap: 24px;
- max-width: 586px;
+ max-width: 1158px;
  margin-right: auto;
  margin-left: auto;
  margin-top: 96px;
@@ -345,12 +344,13 @@ a
   cursor: pointer;
 }
 .img-position-portfolio {
+  max-width: 1128px;
+  flex-wrap: wrap;
   display: flex;
   gap: 24px;
   margin-bottom: 48px;
-  max-width: 1128px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 120px;
 }
 .img-portfolio {
   width: 360px;
