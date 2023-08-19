@@ -316,7 +316,11 @@ a
 }
 .buttons-position-portfolio
 {
-
+display: flex;
+gap: 24px;
+max-width: 586px;
+margin: 0 auto;
+margin-bottom: 72px;
 }
 .button-portfolio
 {
@@ -346,9 +350,7 @@ a
   flex-wrap: wrap;
   display: flex;
   gap: 24px;
-  margin-bottom: 48px;
   margin: 0 auto;
-  margin-bottom: 120px;
 }
 .img-portfolio {
   width: 360px;
