@@ -1,8 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* HTML5 display-role reset for older browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -92,11 +92,14 @@ a
 {
   background: var(--color-white); 
 }
-.logo-top {
+.header-information {
+  display: flex;
+  gap: 322px;
+  align-items: center;
   border-bottom: 1px solid var(--color-cornflower);
-  background: var(--color-white);
-  float: left;
-  padding: 25.5px 0px;
+}
+.logo-top {
+  padding: 24px 0;
 }
 .logo-web {
   color: var(--color-iris);
@@ -114,14 +117,17 @@ a
   line-height: 21px;
   letter-spacing: 0.54px;
 }
-.menu-link-position {
-  float: left;
+.nav-header {
+  display: flex;
+  gap: 72px;
+  align-items: center;
+}
+.menu-position {
+  list-style: none;
   display: flex;
   gap: 40px;
-  margin-left: 76px;
-  padding: 24px 0;
 }
-.menu-link {
+.menu {
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 500;
@@ -131,11 +137,9 @@ a
   gap: 40px;
 }
 .contacts-position {
-  float: left;
+  list-style: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
-  margin-left: 332px;
 }
 .contacts {
   color: var(--color-slate);
@@ -172,7 +176,7 @@ a
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .subtitles-and-descriptions {
-  background-color: var(--color-white);
+  padding-top: 120px;
 }
 .subtitle-and-description-position {  
   display: flex;
@@ -208,6 +212,9 @@ a
 }
 .what-are-we-doing {
   padding-bottom: 120px;
+}
+.title-what-are-we-doing {
+  margin-bottom: 72px;
 }
 .images-what-are-we-doing-position
 {
