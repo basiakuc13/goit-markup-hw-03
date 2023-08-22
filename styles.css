@@ -356,7 +356,8 @@ margin-bottom: 72px;
   max-width: 1128px;
   flex-wrap: wrap;
   display: flex;
-  gap: 24px;
+  row-gap: 24px;
+  column-gap: 24px;
   margin: 0 auto;
 }
 .img-portfolio {
