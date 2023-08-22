@@ -320,6 +320,8 @@ a
 }
 .section-buttons-and-portfolio-card {
   background: var(--color-white);
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 .buttons-position-portfolio
 {
